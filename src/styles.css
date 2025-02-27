@@ -1,0 +1,48 @@
+.preview-section {
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.preview-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.preview-section th, 
+.preview-section td {
+  padding: 0.5rem;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+.approval-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4CAF50;
+  transition: width 0.3s ease;
+}
+
+.cost-estimate {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff3cd;
+  border-radius: 4px;
+  border: 1px solid #ffeeba;
+} 

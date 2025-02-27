@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: data-merge-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CORS_ORIGIN
+        value: https://data-merge-frontend.onrender.com
+
+  - type: static
+    name: data-merge-frontend
+    buildCommand: npm install && npm run build
+    publish: frontend/build 
